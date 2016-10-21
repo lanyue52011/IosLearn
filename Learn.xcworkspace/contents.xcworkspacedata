@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:NSGradViewTest/NSGradViewTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommanLIB/CommanLIB.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Utilities/Utilities.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Ball/Ball.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TouchExplorer/Layout/Layout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TouchExplorer/TouchExplorer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Camera/Camera.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Persistence/Persistence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:webview/webview.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Presidents/Presidents.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DialogViewer/DialogViewer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fonts/Fonts.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Section/Section.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewObj/TableViewObj.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccitentDetailController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W4n-bV-rno">
+                    <rect key="frame" x="87" y="78" width="505" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z95-Nj-5ZT">
+                    <rect key="frame" x="42" y="87" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pickerView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MqB-zF-KRV">
+                    <rect key="frame" x="87" y="116" width="505" height="32"/>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="事故等级：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSt-Fa-pYA">
+                    <rect key="frame" x="8" y="121" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="内容：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUO-nd-QTG">
+                    <rect key="frame" x="42" y="156" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZS-2e-NUW">
+                    <rect key="frame" x="87" y="379" width="318" height="167"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asd-mb-cJv">
+                    <rect key="frame" x="18" y="384" width="75" height="30"/>
+                    <state key="normal" title="选择图片："/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="事故时间：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pa-a6-781">
+                    <rect key="frame" x="8" y="340" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="hBU-za-MvV">
+                    <rect key="frame" x="87" y="335" width="505" height="36"/>
+                    <date key="date" timeIntervalSinceReferenceDate="491905755.01204503">
+                        <!--2016-08-03 08:29:15 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6td-JI-zsu">
+                    <rect key="frame" x="322" y="562" width="34" height="30"/>
+                    <state key="normal" title=" 保存"/>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2rb-NK-23k">
+                    <rect key="frame" x="87" y="150" width="505" height="179"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MqB-zF-KRV" firstAttribute="top" secondItem="W4n-bV-rno" secondAttribute="bottom" constant="8" id="7Iz-Bw-M72"/>
+                <constraint firstItem="PZS-2e-NUW" firstAttribute="top" secondItem="hBU-za-MvV" secondAttribute="bottom" constant="8" id="7ej-Jp-yeJ"/>
+                <constraint firstItem="nSt-Fa-pYA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="AWp-31-dla"/>
+                <constraint firstItem="hBU-za-MvV" firstAttribute="top" secondItem="2rb-NK-23k" secondAttribute="bottom" constant="6" id="Fd5-Wx-qCc"/>
+                <constraint firstItem="XUO-nd-QTG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="42" id="Fuf-qp-pDO"/>
+                <constraint firstItem="PZS-2e-NUW" firstAttribute="top" secondItem="hBU-za-MvV" secondAttribute="bottom" constant="8" id="Htj-AT-eGg"/>
+                <constraint firstItem="asd-mb-cJv" firstAttribute="top" secondItem="1pa-a6-781" secondAttribute="bottom" constant="23" id="IKh-xH-M7G"/>
+                <constraint firstItem="W4n-bV-rno" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="78" id="K2f-Ya-TMI"/>
+                <constraint firstItem="2rb-NK-23k" firstAttribute="top" secondItem="MqB-zF-KRV" secondAttribute="bottom" constant="2" id="Kt6-9b-AQo"/>
+                <constraint firstItem="1pa-a6-781" firstAttribute="top" secondItem="XUO-nd-QTG" secondAttribute="bottom" constant="163" id="Meh-5k-5qj"/>
+                <constraint firstItem="2rb-NK-23k" firstAttribute="top" secondItem="MqB-zF-KRV" secondAttribute="bottom" constant="2" id="Nrc-l7-eMD"/>
+                <constraint firstAttribute="trailing" secondItem="W4n-bV-rno" secondAttribute="trailing" constant="8" id="PRv-Ud-aXR"/>
+                <constraint firstAttribute="trailing" secondItem="PZS-2e-NUW" secondAttribute="trailing" constant="195" id="RsM-KL-1Cd"/>
+                <constraint firstItem="PZS-2e-NUW" firstAttribute="leading" secondItem="asd-mb-cJv" secondAttribute="trailing" constant="-6" id="S87-Oe-Gav"/>
+                <constraint firstItem="XUO-nd-QTG" firstAttribute="top" secondItem="nSt-Fa-pYA" secondAttribute="bottom" constant="14" id="Uis-c1-eQx"/>
+                <constraint firstAttribute="trailing" secondItem="MqB-zF-KRV" secondAttribute="trailing" constant="8" id="VQc-8s-Frf"/>
+                <constraint firstItem="6td-JI-zsu" firstAttribute="top" secondItem="PZS-2e-NUW" secondAttribute="bottom" constant="8" id="X7N-aO-Sdk"/>
+                <constraint firstItem="z95-Nj-5ZT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="42" id="d88-ze-5wZ"/>
+                <constraint firstItem="hBU-za-MvV" firstAttribute="leading" secondItem="1pa-a6-781" secondAttribute="trailing" constant="-6" id="e38-lR-PEv"/>
+                <constraint firstAttribute="trailing" secondItem="hBU-za-MvV" secondAttribute="trailing" constant="8" id="hJZ-7B-AH5"/>
+                <constraint firstItem="2rb-NK-23k" firstAttribute="top" secondItem="XUO-nd-QTG" secondAttribute="bottom" constant="-27" id="ngO-bx-Fb3"/>
+                <constraint firstItem="z95-Nj-5ZT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="87" id="o7Q-ZH-E01"/>
+                <constraint firstAttribute="trailing" secondItem="2rb-NK-23k" secondAttribute="trailing" constant="8" id="ooH-3u-aFm"/>
+                <constraint firstItem="W4n-bV-rno" firstAttribute="leading" secondItem="z95-Nj-5ZT" secondAttribute="trailing" constant="-6" id="p3c-W9-uvd"/>
+                <constraint firstItem="1pa-a6-781" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="tMK-Ia-RdW"/>
+                <constraint firstItem="asd-mb-cJv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="18" id="uDf-FN-H73"/>
+                <constraint firstItem="MqB-zF-KRV" firstAttribute="leading" secondItem="nSt-Fa-pYA" secondAttribute="trailing" constant="-6" id="uhz-mi-nOQ"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__33-[TaskListController viewDidLoad]_block_invoke:TaskListController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[a valueForKey:@&quot;result&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[UserInfoController viewDidLoad]_block_invoke_2:UserInfoController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[UserInfoController navigationLeftButton:]_block_invoke:UserInfoController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[postArr allValues][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "[postArr allValues]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

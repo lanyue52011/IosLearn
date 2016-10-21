@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17835A291D48CDAF0016AF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17835A281D48CDAF0016AF54 /* main.m */; };
+		17835A2C1D48CDAF0016AF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17835A2B1D48CDAF0016AF54 /* AppDelegate.m */; };
+		17835A2F1D48CDAF0016AF54 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17835A2E1D48CDAF0016AF54 /* FirstViewController.m */; };
+		17835A321D48CDAF0016AF54 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17835A311D48CDAF0016AF54 /* SecondViewController.m */; };
+		17835A351D48CDAF0016AF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17835A331D48CDAF0016AF54 /* Main.storyboard */; };
+		17835A371D48CDAF0016AF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17835A361D48CDAF0016AF54 /* Assets.xcassets */; };
+		17835A3A1D48CDAF0016AF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17835A381D48CDAF0016AF54 /* LaunchScreen.storyboard */; };
+		17835A451D48CDAF0016AF54 /* Bradge_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17835A441D48CDAF0016AF54 /* Bradge_ControlTests.m */; };
+		17835A501D48CF000016AF54 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17835A4F1D48CF000016AF54 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17835A411D48CDAF0016AF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17835A1C1D48CDAF0016AF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17835A231D48CDAF0016AF54;
+			remoteInfo = "Bradge Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17835A241D48CDAF0016AF54 /* Bradge Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bradge Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17835A281D48CDAF0016AF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17835A2A1D48CDAF0016AF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17835A2B1D48CDAF0016AF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17835A2D1D48CDAF0016AF54 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		17835A2E1D48CDAF0016AF54 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		17835A301D48CDAF0016AF54 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		17835A311D48CDAF0016AF54 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		17835A341D48CDAF0016AF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17835A361D48CDAF0016AF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17835A391D48CDAF0016AF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17835A3B1D48CDAF0016AF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17835A401D48CDAF0016AF54 /* Bradge ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradge ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17835A441D48CDAF0016AF54 /* Bradge_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bradge_ControlTests.m; sourceTree = "<group>"; };
+		17835A461D48CDAF0016AF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17835A4F1D48CF000016AF54 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		17835A521D48DDCD0016AF54 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17835A211D48CDAF0016AF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17835A3D1D48CDAF0016AF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17835A1B1D48CDAF0016AF54 = {
+			isa = PBXGroup;
+			children = (
+				17835A261D48CDAF0016AF54 /* Bradge Control */,
+				17835A431D48CDAF0016AF54 /* Bradge ControlTests */,
+				17835A251D48CDAF0016AF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17835A251D48CDAF0016AF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17835A241D48CDAF0016AF54 /* Bradge Control.app */,
+				17835A401D48CDAF0016AF54 /* Bradge ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17835A261D48CDAF0016AF54 /* Bradge Control */ = {
+			isa = PBXGroup;
+			children = (
+				17835A2A1D48CDAF0016AF54 /* AppDelegate.h */,
+				17835A2B1D48CDAF0016AF54 /* AppDelegate.m */,
+				17835A2D1D48CDAF0016AF54 /* FirstViewController.h */,
+				17835A2E1D48CDAF0016AF54 /* FirstViewController.m */,
+				17835A301D48CDAF0016AF54 /* SecondViewController.h */,
+				17835A311D48CDAF0016AF54 /* SecondViewController.m */,
+				17835A331D48CDAF0016AF54 /* Main.storyboard */,
+				17835A4F1D48CF000016AF54 /* Settings.bundle */,
+				17835A361D48CDAF0016AF54 /* Assets.xcassets */,
+				17835A381D48CDAF0016AF54 /* LaunchScreen.storyboard */,
+				17835A3B1D48CDAF0016AF54 /* Info.plist */,
+				17835A271D48CDAF0016AF54 /* Supporting Files */,
+				17835A521D48DDCD0016AF54 /* Constants.h */,
+			);
+			path = "Bradge Control";
+			sourceTree = "<group>";
+		};
+		17835A271D48CDAF0016AF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17835A281D48CDAF0016AF54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17835A431D48CDAF0016AF54 /* Bradge ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				17835A441D48CDAF0016AF54 /* Bradge_ControlTests.m */,
+				17835A461D48CDAF0016AF54 /* Info.plist */,
+			);
+			path = "Bradge ControlTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17835A231D48CDAF0016AF54 /* Bradge Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17835A491D48CDAF0016AF54 /* Build configuration list for PBXNativeTarget "Bradge Control" */;
+			buildPhases = (
+				17835A201D48CDAF0016AF54 /* Sources */,
+				17835A211D48CDAF0016AF54 /* Frameworks */,
+				17835A221D48CDAF0016AF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bradge Control";
+			productName = "Bradge Control";
+			productReference = 17835A241D48CDAF0016AF54 /* Bradge Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17835A3F1D48CDAF0016AF54 /* Bradge ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17835A4C1D48CDAF0016AF54 /* Build configuration list for PBXNativeTarget "Bradge ControlTests" */;
+			buildPhases = (
+				17835A3C1D48CDAF0016AF54 /* Sources */,
+				17835A3D1D48CDAF0016AF54 /* Frameworks */,
+				17835A3E1D48CDAF0016AF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17835A421D48CDAF0016AF54 /* PBXTargetDependency */,
+			);
+			name = "Bradge ControlTests";
+			productName = "Bradge ControlTests";
+			productReference = 17835A401D48CDAF0016AF54 /* Bradge ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17835A1C1D48CDAF0016AF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cnpdc;
+				TargetAttributes = {
+					17835A231D48CDAF0016AF54 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6SKRWCR7JS;
+					};
+					17835A3F1D48CDAF0016AF54 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6SKRWCR7JS;
+						TestTargetID = 17835A231D48CDAF0016AF54;
+					};
+				};
+			};
+			buildConfigurationList = 17835A1F1D48CDAF0016AF54 /* Build configuration list for PBXProject "Bradge Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17835A1B1D48CDAF0016AF54;
+			productRefGroup = 17835A251D48CDAF0016AF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17835A231D48CDAF0016AF54 /* Bradge Control */,
+				17835A3F1D48CDAF0016AF54 /* Bradge ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17835A221D48CDAF0016AF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17835A501D48CF000016AF54 /* Settings.bundle in Resources */,
+				17835A3A1D48CDAF0016AF54 /* LaunchScreen.storyboard in Resources */,
+				17835A371D48CDAF0016AF54 /* Assets.xcassets in Resources */,
+				17835A351D48CDAF0016AF54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17835A3E1D48CDAF0016AF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17835A201D48CDAF0016AF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17835A321D48CDAF0016AF54 /* SecondViewController.m in Sources */,
+				17835A2C1D48CDAF0016AF54 /* AppDelegate.m in Sources */,
+				17835A2F1D48CDAF0016AF54 /* FirstViewController.m in Sources */,
+				17835A291D48CDAF0016AF54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17835A3C1D48CDAF0016AF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17835A451D48CDAF0016AF54 /* Bradge_ControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17835A421D48CDAF0016AF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17835A231D48CDAF0016AF54 /* Bradge Control */;
+			targetProxy = 17835A411D48CDAF0016AF54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17835A331D48CDAF0016AF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17835A341D48CDAF0016AF54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17835A381D48CDAF0016AF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17835A391D48CDAF0016AF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17835A471D48CDAF0016AF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17835A481D48CDAF0016AF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17835A4A1D48CDAF0016AF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bradge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnpdc.Bradge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17835A4B1D48CDAF0016AF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bradge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnpdc.Bradge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17835A4D1D48CDAF0016AF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bradge ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnpdc.Bradge-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradge Control.app/Bradge Control";
+			};
+			name = Debug;
+		};
+		17835A4E1D48CDAF0016AF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bradge ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnpdc.Bradge-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradge Control.app/Bradge Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17835A1F1D48CDAF0016AF54 /* Build configuration list for PBXProject "Bradge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17835A471D48CDAF0016AF54 /* Debug */,
+				17835A481D48CDAF0016AF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17835A491D48CDAF0016AF54 /* Build configuration list for PBXNativeTarget "Bradge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17835A4A1D48CDAF0016AF54 /* Debug */,
+				17835A4B1D48CDAF0016AF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17835A4C1D48CDAF0016AF54 /* Build configuration list for PBXNativeTarget "Bradge ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17835A4D1D48CDAF0016AF54 /* Debug */,
+				17835A4E1D48CDAF0016AF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17835A1C1D48CDAF0016AF54 /* Project object */;
+}
